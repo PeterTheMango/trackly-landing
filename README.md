@@ -1,8 +1,20 @@
-# Trackly - Booking Management Landing Page
+<div align="center">
+
+![Trackly Logo](./public/images/logo.png)
+
+# Trackly
+
+Booking Management Landing Page
+
+</div>
 
 Trackly is an intuitive booking management platform designed to simplify day-to-day operations for administrators. This repository contains the modern landing page built with Next.js 15, showcasing Trackly's features and capabilities.
 
 ![Trackly Landing Page](./public/demo_image.png)
+
+## Live Demo
+
+Visit the live admin dashboard at [https://admin.trackly.com](https://admin.trackly.com) to experience Trackly's booking management capabilities.
 
 ## What is Trackly?
 
@@ -106,19 +118,6 @@ trackly-landing-site/
     └── trackly-landing-implementation.md
 ```
 
-## Feature Assets
-
-The landing page showcases various features with dedicated visual assets:
-
-| Feature | Image | Description |
-|---------|-------|-------------|
-| Booking Management | ![Booking](./public/images/features/booking.png) | Centralized booking administration |
-| Real-time Analytics | ![Analytics](./public/images/features/real-time.png) | Live performance dashboards |
-| Customer Communication | ![Communication](./public/images/features/customer-communication.png) | Integrated messaging system |
-| Automated Workflows | ![Automation](./public/images/features/automated-workflow.png) | Process automation tools |
-| Cross-platform Access | ![Cross-platform](./public/images/features/cross-platform.png) | Multi-device compatibility |
-| Integrations | ![Integrations](./public/images/features/integrations.png) | Third-party tool connections |
-
 ## Contributing
 
 This project follows modern web development best practices:
@@ -134,7 +133,3 @@ This project follows modern web development best practices:
 - [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API
 - [Tailwind CSS](https://tailwindcss.com/docs) - Utility-first CSS framework
 - [Radix UI](https://www.radix-ui.com/) - Low-level UI primitives
-
-## Live Demo
-
-Visit the live admin dashboard at [https://admin.trackly.com](https://admin.trackly.com) to experience Trackly's booking management capabilities.
