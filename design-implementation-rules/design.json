@@ -1,0 +1,266 @@
+{
+  "designSystem": {
+    "name": "Dark Green Gradient SaaS",
+    "version": "1.0",
+    "category": "SaaS/Technology",
+    "style": "Modern, Premium, Corporate"
+  },
+  "colorPalette": {
+    "primary": {
+      "background": {
+        "base": "#0a0f0a",
+        "gradient": "linear-gradient(135deg, #0a0f0a 0%, #1a3d2e 50%, #2d5a47 100%)",
+        "description": "Dark base with green gradient overlay"
+      },
+      "accent": "#4ade80",
+      "text": {
+        "primary": "#ffffff",
+        "secondary": "#94a3b8",
+        "muted": "#64748b"
+      }
+    },
+    "semantic": {
+      "success": "#22c55e",
+      "warning": "#f59e0b",
+      "error": "#ef4444",
+      "info": "#3b82f6"
+    },
+    "surface": {
+      "card": "rgba(255, 255, 255, 0.05)",
+      "cardBorder": "rgba(255, 255, 255, 0.1)",
+      "overlay": "rgba(0, 0, 0, 0.8)"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "primary": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+      "fallback": "system-ui, sans-serif"
+    },
+    "hierarchy": {
+      "h1": {
+        "fontSize": "48px",
+        "fontWeight": "700",
+        "lineHeight": "1.1",
+        "letterSpacing": "-0.02em"
+      },
+      "h2": {
+        "fontSize": "36px",
+        "fontWeight": "600",
+        "lineHeight": "1.2",
+        "letterSpacing": "-0.01em"
+      },
+      "h3": {
+        "fontSize": "24px",
+        "fontWeight": "600",
+        "lineHeight": "1.3"
+      },
+      "body": {
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "1.6"
+      },
+      "caption": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "1.4"
+      }
+    }
+  },
+  "spacing": {
+    "scale": "8px base unit",
+    "values": {
+      "xs": "4px",
+      "sm": "8px",
+      "md": "16px",
+      "lg": "24px",
+      "xl": "32px",
+      "2xl": "48px",
+      "3xl": "64px",
+      "4xl": "96px"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": {
+        "background": "#4ade80",
+        "color": "#000000",
+        "padding": "12px 24px",
+        "borderRadius": "8px",
+        "fontWeight": "500",
+        "border": "none",
+        "states": {
+          "hover": {
+            "background": "#22c55e"
+          },
+          "active": {
+            "background": "#16a34a"
+          }
+        }
+      },
+      "secondary": {
+        "background": "transparent",
+        "color": "#ffffff",
+        "padding": "12px 24px",
+        "borderRadius": "8px",
+        "fontWeight": "500",
+        "border": "1px solid rgba(255, 255, 255, 0.2)",
+        "states": {
+          "hover": {
+            "background": "rgba(255, 255, 255, 0.05)",
+            "borderColor": "rgba(255, 255, 255, 0.3)"
+          }
+        }
+      }
+    },
+    "cards": {
+      "pricing": {
+        "background": "rgba(255, 255, 255, 0.05)",
+        "border": "1px solid rgba(255, 255, 255, 0.1)",
+        "borderRadius": "16px",
+        "padding": "32px",
+        "backdropFilter": "blur(10px)",
+        "structure": {
+          "header": {
+            "title": "Plan name",
+            "price": "Large number with currency",
+            "billing": "Billing period"
+          },
+          "features": {
+            "type": "List with checkmarks",
+            "categories": ["Usage limits", "Features", "Support"]
+          },
+          "cta": "Primary button"
+        }
+      },
+      "testimonial": {
+        "background": "rgba(255, 255, 255, 0.05)",
+        "border": "1px solid rgba(255, 255, 255, 0.1)",
+        "borderRadius": "12px",
+        "padding": "24px",
+        "structure": {
+          "quote": "Large quotation marks",
+          "content": "Testimonial text",
+          "author": {
+            "name": "Full name",
+            "title": "Job title",
+            "company": "Company name"
+          }
+        }
+      }
+    },
+    "layout": {
+      "section": {
+        "padding": "80px 0",
+        "maxWidth": "1200px",
+        "margin": "0 auto"
+      },
+      "container": {
+        "padding": "0 24px",
+        "maxWidth": "100%"
+      }
+    }
+  },
+  "patterns": {
+    "pricingTable": {
+      "layout": "3-column grid",
+      "spacing": "24px gap",
+      "responsive": {
+        "mobile": "Single column stack",
+        "tablet": "2-column grid",
+        "desktop": "3-column grid"
+      },
+      "features": {
+        "comparison": "Feature matrix with checkmarks/values",
+        "categories": "Grouped feature sets",
+        "billing": "Toggle for monthly/yearly"
+      }
+    },
+    "testimonials": {
+      "layout": "3-column grid",
+      "spacing": "24px gap",
+      "style": "Card-based with quotes",
+      "content": "Quote + author attribution"
+    },
+    "ctaSections": {
+      "layout": "Centered content",
+      "background": "Gradient overlay",
+      "elements": ["Headline", "Description", "Primary CTA button"],
+      "padding": "80px vertical, 24px horizontal"
+    }
+  },
+  "effects": {
+    "glassmorphism": {
+      "background": "rgba(255, 255, 255, 0.05)",
+      "backdropFilter": "blur(10px)",
+      "border": "1px solid rgba(255, 255, 255, 0.1)"
+    },
+    "gradients": {
+      "background": "Dark to green radial/linear gradients",
+      "overlays": "Subtle color transitions"
+    },
+    "shadows": {
+      "card": "0 4px 20px rgba(0, 0, 0, 0.3)",
+      "button": "0 2px 8px rgba(0, 0, 0, 0.2)"
+    }
+  },
+  "interactions": {
+    "hover": {
+      "cards": "Subtle scale (1.02) or glow effect",
+      "buttons": "Background color change + subtle scale",
+      "links": "Color transition"
+    },
+    "focus": {
+      "outline": "2px solid #4ade80",
+      "outlineOffset": "2px"
+    },
+    "transitions": {
+      "duration": "200ms",
+      "easing": "ease-in-out"
+    }
+  },
+  "breakpoints": {
+    "mobile": "320px",
+    "tablet": "768px",
+    "desktop": "1024px",
+    "wide": "1200px"
+  },
+  "designPrinciples": {
+    "aesthetic": [
+      "Premium and sophisticated",
+      "Dark theme with green accents",
+      "Glass morphism and transparency effects",
+      "Generous whitespace",
+      "Subtle gradients and overlays"
+    ],
+    "usability": [
+      "Clear visual hierarchy",
+      "High contrast for readability",
+      "Consistent spacing system",
+      "Accessible color combinations",
+      "Intuitive navigation patterns"
+    ],
+    "branding": [
+      "Technology/SaaS focused",
+      "Professional and trustworthy",
+      "Modern and cutting-edge",
+      "Growth and success themed (green)",
+      "Enterprise-grade appearance"
+    ]
+  },
+  "usage": {
+    "bestFor": [
+      "SaaS pricing pages",
+      "Technology product landing pages",
+      "B2B software marketing sites",
+      "Premium service offerings",
+      "Fintech and business tools"
+    ],
+    "components": [
+      "Pricing tables",
+      "Feature comparison charts",
+      "Customer testimonials",
+      "Call-to-action sections",
+      "Product showcases"
+    ]
+  }
+}
