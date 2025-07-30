@@ -1,19 +1,16 @@
-<div align="center">
-<h1>Trackly</h1>
-Booking Management Landing Page
-</div>
+# Trackly - Booking Management Landing Page
 
 Trackly is an intuitive booking management platform designed to simplify day-to-day operations for administrators. This repository contains the modern landing page built with Next.js 15, showcasing Trackly's features and capabilities.
 
 ![Trackly Landing Page](./public/demo_image.png)
 
-## Live Demo
-
-Visit the live admin dashboard at [https://admin.trackly.com](https://admin.trackly.com) to experience Trackly's booking management capabilities.
-
 ## What is Trackly?
 
 Trackly transforms how businesses manage reservations and bookings through its powerful admin dashboard. Our platform offers:
+
+## Live Demo
+
+Visit the live admin dashboard at [https://admin.trackly.com](https://admin.trackly.com) to experience Trackly's booking management capabilities.
 
 ### 🚀 Key Features
 
@@ -80,7 +77,7 @@ Make sure you have Node.js 18+ and npm/bun installed on your machine.
    ```
 
 4. **Open your browser**
-   
+
    Navigate to [http://localhost:3000](http://localhost:3000) to see the landing page in action.
 
 ### Available Scripts
