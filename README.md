@@ -1,11 +1,6 @@
 <div align="center">
-
-![Trackly Logo](./public/images/logo.png)
-
-# Trackly
-
+<h1>Trackly</h1>
 Booking Management Landing Page
-
 </div>
 
 Trackly is an intuitive booking management platform designed to simplify day-to-day operations for administrators. This repository contains the modern landing page built with Next.js 15, showcasing Trackly's features and capabilities.
