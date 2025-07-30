@@ -1,13 +1,18 @@
 "use client"
 
+import Image from "next/image"
 import { MapPin, Mail, Phone } from "lucide-react"
 
 function TracklyLogo() {
   return (
     <div className="flex items-center gap-2">
-      <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-        <span className="text-primary-foreground font-bold text-lg">T</span>
-      </div>
+      <Image
+        src="/images/logo.png"
+        alt="Trackly Logo"
+        width={48}
+        height={48}
+        className="w-12 h-12"
+      />
       <span className="text-xl font-bold text-foreground">Trackly</span>
     </div>
   )

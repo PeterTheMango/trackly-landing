@@ -1,34 +1,34 @@
 import SpotlightCard from "@/components/spotlight-card"
-import { CalendarDays, BarChart3, MessageCircle, Zap, Smartphone, Puzzle } from "lucide-react"
+import Image from "next/image"
 
 const features = [
   {
-    icon: CalendarDays,
+    image: "/images/features/booking.png",
     title: "Effortless Booking Management",
     description: "Create, edit, and track all bookings in one centralized dashboard. Never miss a reservation again."
   },
   {
-    icon: BarChart3,
+    image: "/images/features/real-time.png",
     title: "Real-time Analytics",
     description: "Monitor booking trends, performance metrics, and revenue insights with beautiful, interactive charts."
   },
   {
-    icon: MessageCircle,
+    image: "/images/features/customer-communication.png",
     title: "Customer Communication",
     description: "Manage customer interactions, send automated notifications, and keep everyone in the loop."
   },
   {
-    icon: Zap,
+    image: "/images/features/automated-workflow.png",
     title: "Automated Workflows",
     description: "Streamline repetitive processes with intelligent automation that saves time and reduces errors."
   },
   {
-    icon: Smartphone,
+    image: "/images/features/cross-platform.png",
     title: "Cross-platform Access",
     description: "Access your dashboard from any device, anywhere. Manage your business on the go with ease."
   },
   {
-    icon: Puzzle,
+    image: "/images/features/integrations.png",
     title: "Seamless Integrations",
     description: "Connect with your existing tools and services. Import data and sync across all your platforms."
   }
@@ -52,7 +52,6 @@ export function Features() {
         {/* Features Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => {
-            const IconComponent = feature.icon
             return (
               <SpotlightCard 
                 key={index} 
@@ -60,8 +59,14 @@ export function Features() {
                 spotlightColor="rgba(74, 222, 128, 0.2)"
               >
                 <div className="pb-4">
-                  <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/30 transition-colors">
-                    <IconComponent className="w-6 h-6 text-primary" />
+                  <div className="flex items-left justify-leftW mb-4">
+                    <Image
+                      src={feature.image}
+                      alt={feature.title}
+                      width={100}
+                      height={100}
+                      className="w-35 h-35 object-contain"
+                    />
                   </div>
                   <h3 className="text-xl font-semibold text-foreground mb-4">
                     {feature.title}
