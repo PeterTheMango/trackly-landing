@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,19 +31,19 @@ export const metadata: Metadata = {
   authors: [{ name: "Trackly Team" }],
   creator: "Trackly",
   publisher: "Trackly",
-  metadataBase: new URL("https://trackly.com"),
+  metadataBase: new URL("https://trackly-landing.vercel.app"),
   
   // Open Graph metadata
   openGraph: {
     title: "Trackly - Simplify Your Booking Management",
     description: "Streamline your day-to-day operations with our intuitive admin dashboard. Manage bookings, track performance, and delight customers—all in one place.",
-    url: "https://trackly.com",
+    url: "https://trackly-landing.vercel.app",
     siteName: "Trackly",
     type: "website",
     locale: "en_US",
     images: [
       {
-        url: "/og-image.png",
+        url: "/logo.png",
         width: 1200,
         height: 630,
         alt: "Trackly - Booking Management Dashboard",
@@ -79,7 +80,7 @@ export const metadata: Metadata = {
 
   // Alternate languages (if applicable)
   alternates: {
-    canonical: "https://trackly.com",
+    canonical: "https://trackly-landing.vercel.app",
   },
 
   // App-specific metadata
@@ -110,6 +111,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+      <SpeedInsights />
       </body>
     </html>
   );
